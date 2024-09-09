@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+#vs-code-logo {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+#header {
+  display: flex;
+}
+
+#head-heading {
+  font-size: 1.5vw;
+  margin: auto;
+}
