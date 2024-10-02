@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    background-color: #a62a2a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background-color: #2980b9;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.row label {
+    user-select: none;
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.row input {
+    flex: 1; /* Take remaining space */
+}
+
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}

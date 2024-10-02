@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+#nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  padding: 0 25px;
+}
+
+#nav h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav i {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+#center {
+  width: 100%;
+  padding: 25px 70px;
+}
+
+#center h1 {
+  font-size: 55px;
+  line-height: 60px;
+}
+
+#center-in {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#center-in p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+#right {
+  width: 20%;
+  margin-top: 22px;
+}
+
+.center-right-elem {
+  border-top: solid 2px black;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-right-elem a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center-right-elem i {
+  opacity: 0;
+  font-size: 25px;
+}
+
+.center-right-elem:hover i {
+  opacity: 1;
+}
+
+#bottom {
+  height: 70%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1518114666914-1a1e0cb8b584?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0 20%;
+}
