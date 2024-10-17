@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: salmon;
+}
